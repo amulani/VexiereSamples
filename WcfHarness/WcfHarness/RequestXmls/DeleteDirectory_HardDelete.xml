@@ -1,0 +1,13 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <DeleteDirectory xmlns="http://www.tavisca.com/Vexiere/IDirectory/2013/01">
+      <deleteDirectoryRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:DirectoryIdentifier i:type="a:IdBasedDirectoryIdentifier">
+          <a:DirectoryId>7</a:DirectoryId>
+        </a:DirectoryIdentifier>
+        <a:IsHardDelete>true</a:IsHardDelete>
+      </deleteDirectoryRequest>
+    </DeleteDirectory>
+  </s:Body>
+</s:Envelope>

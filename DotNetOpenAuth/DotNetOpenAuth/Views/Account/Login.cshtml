@@ -1,0 +1,22 @@
+﻿@model Tavisca.Vexiere.DotNetOpenAuth.VexiereClient.Models.LoginModel
+
+@{
+    ViewBag.Title = "Log in";
+}
+
+
+<section class="social" id="socialLoginForm">
+    @ViewBag.LogOut
+    <br />
+    <br />
+    <h3>welcome to Vexiere OAuth Service Provider Client.</h3>
+    <br />
+    please click on below button to login with Vexiere OAuth Service Provider.
+    <br />
+     
+    @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,43 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <CreateDirectoryType xmlns="http://www.tavisca.com/Vexiere/IDirectoryType/2013/01">
+      <createDirTypeRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:DirectoryType>
+          <a:AccessModifier>Public</a:AccessModifier>
+          <a:Id>0</a:Id>
+          <a:Settings xmlns:b="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <b:KeyValuePairOfstringstring>
+              <b:key>MaxWrongPasswordAttemptsAllowed</b:key>
+              <b:value>3</b:value>
+            </b:KeyValuePairOfstringstring>
+            <b:KeyValuePairOfstringstring>
+              <b:key>AutoLockExpiryInMinutes</b:key>
+              <b:value>30</b:value>
+            </b:KeyValuePairOfstringstring>
+            <b:KeyValuePairOfstringstring>
+              <b:key>PasswordExpiryInDays</b:key>
+              <b:value>45</b:value>
+            </b:KeyValuePairOfstringstring>
+            <b:KeyValuePairOfstringstring>
+              <b:key>PasswordComplexityRegEx</b:key>
+              <b:value>(?=^.{7,}$)(?=.*\d)(?=.*[A-Za-z])(?=.*[@'#.$;%^&amp;+=!""()*,-/:&lt;&gt;?]).*$</b:value>
+            </b:KeyValuePairOfstringstring>
+            <b:KeyValuePairOfstringstring>
+              <b:key>NoOfOldPersistedPasswords</b:key>
+              <b:value>3</b:value>
+            </b:KeyValuePairOfstringstring>
+            <b:KeyValuePairOfstringstring>
+              <b:key>TokenExpiryInMinutes</b:key>
+              <b:value>30</b:value>
+            </b:KeyValuePairOfstringstring>
+          </a:Settings>
+          <a:Type>d296eb4c-5296-4fcf-991d-9f635532b2bd</a:Type>
+        </a:DirectoryType>
+        <a:OwnerOrganizationIdentifier i:type="a:IdBasedOrganizationIdentifier">
+          <a:Id>1</a:Id>
+        </a:OwnerOrganizationIdentifier>
+      </createDirTypeRequest>
+    </CreateDirectoryType>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ResolveUsernames xmlns="http://www.tavisca.com/Vexiere/IInfo/2013/01">
+      <request xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData>
+          <a:KeyValueState>
+            <a:AccessModifier>Public</a:AccessModifier>
+            <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+            <a:Key>IpAddress</a:Key>
+            <a:Value>192.168.1.11</a:Value>
+          </a:KeyValueState>
+          <a:KeyValueState>
+            <a:AccessModifier>Public</a:AccessModifier>
+            <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+            <a:Key>UserSessionId</a:Key>
+            <a:Value>f9e8bd46-2b5f-461a-be4c-eb5132f2af9e</a:Value>
+          </a:KeyValueState>
+        </a:AdditionalData>
+        <a:UserIds xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <b:long>1</b:long>
+        </a:UserIds>
+      </request>
+    </ResolveUsernames>
+  </s:Body>
+</s:Envelope>

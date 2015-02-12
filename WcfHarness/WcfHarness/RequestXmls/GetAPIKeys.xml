@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetAPIKeys xmlns="http://www.tavisca.com/Vexiere/IAPIKey/2013/01">
+      <getAPIKeysRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:OwnerOrganizationIdentifier i:type="a:IdBasedOrganizationIdentifier">
+          <a:Id>1</a:Id>
+        </a:OwnerOrganizationIdentifier>
+        <a:PagingInfo>
+          <a:PageNumber>1</a:PageNumber>
+          <a:PageSize>10</a:PageSize>
+        </a:PagingInfo>
+      </getAPIKeysRequest>
+    </GetAPIKeys>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfHarness", "WcfHarness\WcfHarness.csproj", "{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8D601C7B-0694-4979-AFA6-C323309A30AD}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Perf|Any CPU = Perf|Any CPU
+		Qa|Any CPU = Qa|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Stage|Any CPU = Stage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Perf|Any CPU.ActiveCfg = Perf|Any CPU
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Perf|Any CPU.Build.0 = Perf|Any CPU
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Qa|Any CPU.ActiveCfg = Qa|Any CPU
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Qa|Any CPU.Build.0 = Qa|Any CPU
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{4C18E5E9-2655-4A09-910B-C2C653F1C7DC}.Stage|Any CPU.Build.0 = Stage|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

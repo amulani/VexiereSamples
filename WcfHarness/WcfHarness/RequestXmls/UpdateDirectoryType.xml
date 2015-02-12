@@ -1,0 +1,40 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <UpdateDirectoryType xmlns="http://www.tavisca.com/Vexiere/IDirectoryType/2013/01">
+      <updateDirTypeRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:DirectoryType>
+          <a:AccessModifier>Public</a:AccessModifier>
+          <a:Id>4</a:Id>
+          <a:Settings xmlns:b="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+            <b:KeyValuePairOfstringstring>
+              <b:key>MaxWrongPasswordAttemptsAllowed</b:key>
+              <b:value>4</b:value>
+            </b:KeyValuePairOfstringstring>
+            <b:KeyValuePairOfstringstring>
+              <b:key>AutoLockExpiryInMinutes</b:key>
+              <b:value>31</b:value>
+            </b:KeyValuePairOfstringstring>
+            <b:KeyValuePairOfstringstring>
+              <b:key>PasswordExpiryInDays</b:key>
+              <b:value>46</b:value>
+            </b:KeyValuePairOfstringstring>
+            <b:KeyValuePairOfstringstring>
+              <b:key>PasswordComplexityRegEx</b:key>
+              <b:value>(?=^.{7,}$)(?=.*\d)(?=.*[A-Za-z])(?=.*[@'#.$;%^&amp;+=!""()*,-/:&lt;&gt;?]).*$</b:value>
+            </b:KeyValuePairOfstringstring>
+            <b:KeyValuePairOfstringstring>
+              <b:key>NoOfOldPersistedPasswords</b:key>
+              <b:value>4</b:value>
+            </b:KeyValuePairOfstringstring>
+            <b:KeyValuePairOfstringstring>
+              <b:key>TokenExpiryInMinutes</b:key>
+              <b:value>31</b:value>
+            </b:KeyValuePairOfstringstring>
+          </a:Settings>
+          <a:Type i:nil="true"/>
+        </a:DirectoryType>
+      </updateDirTypeRequest>
+    </UpdateDirectoryType>
+  </s:Body>
+</s:Envelope>

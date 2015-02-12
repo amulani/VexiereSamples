@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetOpenIdConnectClient xmlns="http://www.tavisca.com/Vexiere/IOpenIdConnectClient/2013/01">
+      <request xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:OrganizationId>1</a:OrganizationId>
+      </request>
+    </GetOpenIdConnectClient>
+  </s:Body>
+</s:Envelope>

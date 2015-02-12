@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <DeleteScope xmlns="http://www.tavisca.com/Vexiere/IScope/2013/01">
+      <deleteScopeRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:IsHardDelete>false</a:IsHardDelete>
+        <a:ScopeIdentifier i:type="a:NameBasedOrganizationScopeIdentifier">
+          <a:OrganizationId>1</a:OrganizationId>
+          <a:ScopeName>full-control</a:ScopeName>
+        </a:ScopeIdentifier>
+      </deleteScopeRequest>
+    </DeleteScope>
+  </s:Body>
+</s:Envelope>

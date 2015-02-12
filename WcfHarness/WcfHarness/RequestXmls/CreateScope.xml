@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <CreateScope xmlns="http://www.tavisca.com/Vexiere/IScope/2013/01">
+      <createScopeRequest i:type="a:CreateOrganizationScopeRQ" xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:Scope>
+          <a:CreatedOn>0001-01-01T00:00:00</a:CreatedOn>
+          <a:Id>0</a:Id>
+          <a:ModifiedOn>0001-01-01T00:00:00</a:ModifiedOn>
+          <a:Status>Active</a:Status>
+          <a:Description>Complete Access Allowed</a:Description>
+          <a:IsDeleted>false</a:IsDeleted>
+          <a:IsRequired>true</a:IsRequired>
+          <a:Name>full-control</a:Name>
+        </a:Scope>
+        <a:OrganizationIdentifier i:type="a:IdBasedOrganizationIdentifier">
+          <a:Id>1</a:Id>
+        </a:OrganizationIdentifier>
+      </createScopeRequest>
+    </CreateScope>
+  </s:Body>
+</s:Envelope>

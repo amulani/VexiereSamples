@@ -1,0 +1,27 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ManageRoleScopes xmlns="http://www.tavisca.com/Vexiere/IRole/2013/01">
+      <manageRoleScopesRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:OperationMode>OverWriteMode</a:OperationMode>
+        <a:RoleIdentifier i:type="a:IdBasedRoleIdentifier">
+          <a:Id>3</a:Id>
+        </a:RoleIdentifier>
+        <a:ScopeIdentifiers>
+          <a:ScopeIdentifier i:type="a:IdBasedScopeIdentifier">
+            <a:Id>5</a:Id>
+          </a:ScopeIdentifier>
+          <a:ScopeIdentifier i:type="a:IdBasedScopeIdentifier">
+            <a:Id>6</a:Id>
+          </a:ScopeIdentifier>
+          <a:ScopeIdentifier i:type="a:IdBasedScopeIdentifier">
+            <a:Id>7</a:Id>
+          </a:ScopeIdentifier>
+          <a:ScopeIdentifier i:type="a:IdBasedScopeIdentifier">
+            <a:Id>8</a:Id>
+          </a:ScopeIdentifier>
+        </a:ScopeIdentifiers>
+      </manageRoleScopesRequest>
+    </ManageRoleScopes>
+  </s:Body>
+</s:Envelope>

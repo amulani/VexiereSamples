@@ -1,0 +1,10 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetRoleMappings xmlns="http://www.tavisca.com/Vexiere/IRole/2013/01">
+      <getRoleMappingsRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:RoleId>1</a:RoleId>
+      </getRoleMappingsRequest>
+    </GetRoleMappings>
+  </s:Body>
+</s:Envelope>

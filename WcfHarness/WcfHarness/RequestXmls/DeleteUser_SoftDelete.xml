@@ -1,0 +1,13 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <DeleteUser xmlns="http://www.tavisca.com/Vexiere/IUser/2013/01">
+      <deleteUserRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:IsHardDelete>false</a:IsHardDelete>
+        <a:UserIdentifier i:type="a:IdBasedUserIdentifier">
+          <a:Id>5</a:Id>
+        </a:UserIdentifier>
+      </deleteUserRequest>
+    </DeleteUser>
+  </s:Body>
+</s:Envelope>

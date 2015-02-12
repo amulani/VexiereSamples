@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetUserGroups xmlns="http://www.tavisca.com/Vexiere/IUserGroup/2013/01">
+      <getUsersRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:FilterParameters>
+          <a:FilterParameter>
+            <a:SearchOn>Name</a:SearchOn>
+            <a:SearchOperator>EqualTo</a:SearchOperator>
+            <a:SearchValue i:type="a:TextValue">
+              <a:Value>b6598b1c-b5b6-42b6-995d-9c8075a345d6</a:Value>
+            </a:SearchValue>
+          </a:FilterParameter>
+        </a:FilterParameters>
+        <a:PagingInfo i:nil="true"/>
+        <a:SearchScope>
+          <a:OrganizationIdentifier>
+            <a:Id>1</a:Id>
+          </a:OrganizationIdentifier>
+        </a:SearchScope>
+        <a:SortingInfo i:nil="true"/>
+      </getUsersRequest>
+    </GetUserGroups>
+  </s:Body>
+</s:Envelope>

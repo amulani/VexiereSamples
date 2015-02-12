@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetDirectoryTypes xmlns="http://www.tavisca.com/Vexiere/IDirectoryType/2013/01">
+      <request xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:FilterParameters>
+          <a:FilterParameter>
+            <a:SearchOn>Name</a:SearchOn>
+            <a:SearchOperator>EqualTo</a:SearchOperator>
+            <a:SearchValue i:type="a:TextValue">
+              <a:Value>8b1f5dc8-718c-4415-8393-e88de262694d</a:Value>
+            </a:SearchValue>
+          </a:FilterParameter>
+        </a:FilterParameters>
+        <a:PagingInfo i:nil="true"/>
+        <a:SearchScope>
+          <a:OrganizationIdentifier>
+            <a:Id>1</a:Id>
+          </a:OrganizationIdentifier>
+      </a:SearchScope>
+        <a:SortingInfo i:nil="true"/>
+      </request>
+    </GetDirectoryTypes>
+  </s:Body>
+</s:Envelope>

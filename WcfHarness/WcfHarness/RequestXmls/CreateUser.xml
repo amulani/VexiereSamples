@@ -1,0 +1,649 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <CreateUser xmlns="http://www.tavisca.com/Vexiere/IUser/2013/01">
+      <createUserRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData>
+          <a:KeyValueState>
+            <a:AccessModifier>Public</a:AccessModifier>
+            <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+            <a:Key>IpAddress</a:Key>
+            <a:Value>192.168.1.11</a:Value>
+          </a:KeyValueState>
+          <a:KeyValueState>
+            <a:AccessModifier>Public</a:AccessModifier>
+            <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+            <a:Key>UserSessionId</a:Key>
+            <a:Value>f9e8bd46-2b5f-461a-be4c-eb5132f2af9e</a:Value>
+          </a:KeyValueState>
+        </a:AdditionalData>
+        <a:DirectoryName>Root DB Directory</a:DirectoryName>
+        <a:OwnerOrganizationIdentifier i:type="a:IdBasedOrganizationIdentifier">
+          <a:Id>1</a:Id>
+        </a:OwnerOrganizationIdentifier>
+        <a:User>
+          <a:CreatedOn>2014-01-09T23:28:27.7853763+05:30</a:CreatedOn>
+          <a:Id>0</a:Id>
+          <a:ModifiedOn>2015-01-09T23:28:27.7853763+05:30</a:ModifiedOn>
+          <a:Status>Active</a:Status>
+          <a:DateOfBirth i:nil="true"/>
+          <a:Gender>Male</a:Gender>
+          <a:IdentitySetting>
+            <a:Credentials>
+              <a:Password>zaq1ZAQ!</a:Password>
+              <a:UserName>7073bdd9-f871-4934-a61a-f14a7679a950</a:UserName>
+            </a:Credentials>
+            <a:Answer>Pink</a:Answer>
+            <a:Question>Which is my favourite color?</a:Question>
+          </a:IdentitySetting>
+          <a:IsLocked>false</a:IsLocked>
+          <a:LinkedUsers i:nil="true"/>
+          <a:Name>
+            <a:FirstName>John</a:FirstName>
+            <a:LastName>Lee</a:LastName>
+            <a:MiddleName>Alan</a:MiddleName>
+            <a:Prefix i:nil="true"/>
+            <a:Suffix i:nil="true"/>
+            <a:Title>Mr</a:Title>
+          </a:Name>
+          <a:Profile>
+            <a:AdditionalData i:nil="true"/>
+            <a:Address>
+              <a:Addresses>
+                <a:Address>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode>1</a:ItemCode>
+                  <a:AddressLine1>EON Kharadi</a:AddressLine1>
+                  <a:AddressLine2>Pune</a:AddressLine2>
+                  <a:AddressScheme>Standard</a:AddressScheme>
+                  <a:City>Pune</a:City>
+                  <a:Country>India</a:Country>
+                  <a:State>Maharashtra</a:State>
+                  <a:Type>Office</a:Type>
+                  <a:Zip>400133</a:Zip>
+                </a:Address>
+              </a:Addresses>
+            </a:Address>
+            <a:Affiliation>
+              <a:Affiliations>
+                <a:Affiliation>
+                  <a:ItemCode>1</a:ItemCode>
+                  <a:AffiliatedBy>Govt of India</a:AffiliatedBy>
+                  <a:Description>Unique Personal identity/account number</a:Description>
+                  <a:Name>PAN</a:Name>
+                  <a:Type>Pancard</a:Type>
+                  <a:Value>BUQPL56369</a:Value>
+                </a:Affiliation>
+                <a:Affiliation>
+                  <a:ItemCode>2</a:ItemCode>
+                  <a:AffiliatedBy>Govt of India</a:AffiliatedBy>
+                  <a:Description>Unique tax information number</a:Description>
+                  <a:Name>TIN</a:Name>
+                  <a:Type>Tax Info Number</a:Type>
+                  <a:Value>TIN123</a:Value>
+                </a:Affiliation>
+              </a:Affiliations>
+            </a:Affiliation>
+            <a:Configuration>
+              <a:Sections>
+                <a:KeyValueSection>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:KeyValueSettings>
+                    <a:KeyValueState>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:Key>Key</a:Key>
+                      <a:Value>Value</a:Value>
+                    </a:KeyValueState>
+                    <a:KeyValueState>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:Key>Key1</a:Key>
+                      <a:Value>Value1</a:Value>
+                    </a:KeyValueState>
+                  </a:KeyValueSettings>
+                  <a:Name>SectionA</a:Name>
+                </a:KeyValueSection>
+                <a:KeyValueSection>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:KeyValueSettings>
+                    <a:KeyValueState>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:Key>Key</a:Key>
+                      <a:Value>Value</a:Value>
+                    </a:KeyValueState>
+                    <a:KeyValueState>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:Key>Key1</a:Key>
+                      <a:Value>Value1</a:Value>
+                    </a:KeyValueState>
+                  </a:KeyValueSettings>
+                  <a:Name>SectionB</a:Name>
+                </a:KeyValueSection>
+              </a:Sections>
+            </a:Configuration>
+            <a:Contact>
+              <a:Contacts>
+                <a:Contact i:type="a:Phone">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode>1</a:ItemCode>
+                  <a:AreaCode>020</a:AreaCode>
+                  <a:CountryCode>+91</a:CountryCode>
+                  <a:Extension>020</a:Extension>
+                  <a:IsDefault>true</a:IsDefault>
+                  <a:Location>Office</a:Location>
+                  <a:Type>Phone</a:Type>
+                  <a:Value>67318600</a:Value>
+                </a:Contact>
+                <a:Contact i:type="a:Phone">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode>2</a:ItemCode>
+                  <a:AreaCode/>
+                  <a:CountryCode>+91</a:CountryCode>
+                  <a:Extension/>
+                  <a:IsDefault>false</a:IsDefault>
+                  <a:Location>Office</a:Location>
+                  <a:Type>Cell</a:Type>
+                  <a:Value>9021284186</a:Value>
+                </a:Contact>
+                <a:Contact i:type="a:Email">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode>3</a:ItemCode>
+                  <a:IsDefault>true</a:IsDefault>
+                  <a:Value>demoaccount@tavisca.com</a:Value>
+                </a:Contact>
+                <a:Contact i:type="a:GeneralContact">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode>4</a:ItemCode>
+                  <a:Provider>tavisca</a:Provider>
+                  <a:Type>Chat</a:Type>
+                  <a:Value>chatwithme@tavisca.com</a:Value>
+                </a:Contact>
+              </a:Contacts>
+            </a:Contact>
+            <a:CustomContract>
+              <a:CustomContractObjects>
+                <a:CustomContract i:type="b:MilitaryInfo" xmlns:b="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract.Extension">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>1</a:OwnerOrganizationId>
+                  <a:ItemCode i:nil="true"/>
+                  <a:AdditionalData i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/System.Collections.Generic"/>
+                  <b:Address>
+                    <a:AccessModifier>Public</a:AccessModifier>
+                    <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                    <a:ItemCode i:nil="true"/>
+                    <a:AdditionalData i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/System.Collections.Generic"/>
+                    <b:PO>APO</b:PO>
+                    <b:TestAttrLessField1>TestValue1</b:TestAttrLessField1>
+                    <b:Unit>CAM1</b:Unit>
+                  </b:Address>
+                  <b:CampAreaName>Fatimanagar</b:CampAreaName>
+                  <b:MilitaryId>123</b:MilitaryId>
+                  <b:Qualifications>
+                    <b:Qualification>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode i:nil="true"/>
+                      <a:AdditionalData i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/System.Collections.Generic"/>
+                      <b:QualificationName>BSC</b:QualificationName>
+                      <b:Year>1999</b:Year>
+                    </b:Qualification>
+                    <b:Qualification>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode i:nil="true"/>
+                      <a:AdditionalData i:nil="true" xmlns:c="http://schemas.datacontract.org/2004/07/System.Collections.Generic"/>
+                      <b:QualificationName>MSC</b:QualificationName>
+                      <b:Year>2003</b:Year>
+                    </b:Qualification>
+                  </b:Qualifications>
+                </a:CustomContract>
+              </a:CustomContractObjects>
+            </a:CustomContract>
+            <a:CustomData>
+              <a:CustomDataList>
+                <a:CustomData>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode i:nil="true"/>
+                  <a:Fields>
+                    <a:FieldInfo i:type="a:TextField">
+                      <a:Name>Name</a:Name>
+                      <a:Value>John Doe</a:Value>
+                    </a:FieldInfo>
+                    <a:FieldInfo i:type="a:NumericField">
+                      <a:Name>EmpId</a:Name>
+                      <a:Value>123</a:Value>
+                    </a:FieldInfo>
+                    <a:FieldInfo i:type="a:DateField">
+                      <a:Name>DOB</a:Name>
+                      <a:Value>1984-04-24T00:00:00</a:Value>
+                    </a:FieldInfo>
+                    <a:FieldInfo i:type="a:BooleanField">
+                      <a:Name>IsMarried</a:Name>
+                      <a:Value>true</a:Value>
+                    </a:FieldInfo>
+                  </a:Fields>
+                  <a:InnerCustomDataList>
+                    <a:CustomData>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode i:nil="true"/>
+                      <a:Fields>
+                        <a:FieldInfo i:type="a:TextField">
+                          <a:Name>AddressLine1</a:Name>
+                          <a:Value>Lane 12</a:Value>
+                        </a:FieldInfo>
+                        <a:FieldInfo i:type="a:TextField">
+                          <a:Name>AddressLine2</a:Name>
+                          <a:Value>Street 45</a:Value>
+                        </a:FieldInfo>
+                        <a:FieldInfo i:type="a:TextField">
+                          <a:Name>City</a:Name>
+                          <a:Value>Pune</a:Value>
+                        </a:FieldInfo>
+                        <a:FieldInfo i:type="a:TextField">
+                          <a:Name>State</a:Name>
+                          <a:Value>MH</a:Value>
+                        </a:FieldInfo>
+                      </a:Fields>
+                      <a:InnerCustomDataList>
+                        <a:CustomData>
+                          <a:AccessModifier>Public</a:AccessModifier>
+                          <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                          <a:ItemCode i:nil="true"/>
+                          <a:Fields>
+                            <a:FieldInfo i:type="a:NumericField">
+                              <a:Name>LAT</a:Name>
+                              <a:Value>123123.456</a:Value>
+                            </a:FieldInfo>
+                            <a:FieldInfo i:type="a:NumericField">
+                              <a:Name>LONG</a:Name>
+                              <a:Value>987987.654</a:Value>
+                            </a:FieldInfo>
+                          </a:Fields>
+                          <a:InnerCustomDataList i:nil="true"/>
+                          <a:Lists i:nil="true"/>
+                          <a:Name>GeoCode</a:Name>
+                        </a:CustomData>
+                      </a:InnerCustomDataList>
+                      <a:Lists i:nil="true"/>
+                      <a:Name>Address</a:Name>
+                    </a:CustomData>
+                  </a:InnerCustomDataList>
+                  <a:Lists>
+                    <a:CustomDataCollectionBase i:type="a:FieldInfoCollection">
+                      <a:Name>Contacts</a:Name>
+                      <a:FieldList>
+                        <a:FieldInfo i:type="a:NumericField">
+                          <a:Name>Landline</a:Name>
+                          <a:Value>98901231213</a:Value>
+                        </a:FieldInfo>
+                        <a:FieldInfo i:type="a:NumericField">
+                          <a:Name>Mobile</a:Name>
+                          <a:Value>98906667777</a:Value>
+                        </a:FieldInfo>
+                      </a:FieldList>
+                    </a:CustomDataCollectionBase>
+                    <a:CustomDataCollectionBase i:type="a:CustomDataCollection">
+                      <a:Name i:nil="true"/>
+                      <a:CustomDataList>
+                        <a:CustomData>
+                          <a:AccessModifier>Public</a:AccessModifier>
+                          <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                          <a:ItemCode i:nil="true"/>
+                          <a:Fields>
+                            <a:FieldInfo i:type="a:TextField">
+                              <a:Name>Name</a:Name>
+                              <a:Value>B.E.</a:Value>
+                            </a:FieldInfo>
+                            <a:FieldInfo i:type="a:NumericField">
+                              <a:Name>Year</a:Name>
+                              <a:Value>2001</a:Value>
+                            </a:FieldInfo>
+                          </a:Fields>
+                          <a:InnerCustomDataList>
+                            <a:CustomData>
+                              <a:AccessModifier>Public</a:AccessModifier>
+                              <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                              <a:ItemCode i:nil="true"/>
+                              <a:Fields>
+                                <a:FieldInfo i:type="a:TextField">
+                                  <a:Name>Name</a:Name>
+                                  <a:Value>COE, Pune</a:Value>
+                                </a:FieldInfo>
+                                <a:FieldInfo i:type="a:TextField">
+                                  <a:Name>RegNo</a:Name>
+                                  <a:Value>123/p/12</a:Value>
+                                </a:FieldInfo>
+                              </a:Fields>
+                              <a:InnerCustomDataList i:nil="true"/>
+                              <a:Lists i:nil="true"/>
+                              <a:Name>InstituteInfo</a:Name>
+                            </a:CustomData>
+                          </a:InnerCustomDataList>
+                          <a:Lists i:nil="true"/>
+                          <a:Name>Qualification</a:Name>
+                        </a:CustomData>
+                        <a:CustomData>
+                          <a:AccessModifier>Public</a:AccessModifier>
+                          <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                          <a:ItemCode i:nil="true"/>
+                          <a:Fields>
+                            <a:FieldInfo i:type="a:TextField">
+                              <a:Name>Name</a:Name>
+                              <a:Value>M.E.</a:Value>
+                            </a:FieldInfo>
+                            <a:FieldInfo i:type="a:NumericField">
+                              <a:Name>Year</a:Name>
+                              <a:Value>2007</a:Value>
+                            </a:FieldInfo>
+                          </a:Fields>
+                          <a:InnerCustomDataList>
+                            <a:CustomData>
+                              <a:AccessModifier>Public</a:AccessModifier>
+                              <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                              <a:ItemCode i:nil="true"/>
+                              <a:Fields>
+                                <a:FieldInfo i:type="a:TextField">
+                                  <a:Name>Name</a:Name>
+                                  <a:Value>COE, Banglore</a:Value>
+                                </a:FieldInfo>
+                                <a:FieldInfo i:type="a:TextField">
+                                  <a:Name>RegNo</a:Name>
+                                  <a:Value>456/Q/99</a:Value>
+                                </a:FieldInfo>
+                              </a:Fields>
+                              <a:InnerCustomDataList i:nil="true"/>
+                              <a:Lists i:nil="true"/>
+                              <a:Name>InstituteInfo</a:Name>
+                            </a:CustomData>
+                          </a:InnerCustomDataList>
+                          <a:Lists i:nil="true"/>
+                          <a:Name>Qualification</a:Name>
+                        </a:CustomData>
+                      </a:CustomDataList>
+                    </a:CustomDataCollectionBase>
+                  </a:Lists>
+                  <a:Name>Person</a:Name>
+                </a:CustomData>
+              </a:CustomDataList>
+              <a:CustomMetadataList/>
+            </a:CustomData>
+            <a:FormOfPayment>
+              <a:Payments>
+                <a:FormOfPayment i:type="a:SoftCash">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode>1</a:ItemCode>
+                  <a:Type>SoftCash</a:Type>
+                  <a:AccountNumber>0539111333</a:AccountNumber>
+                  <a:ProviderCode>TB</a:ProviderCode>
+                  <a:ProviderName>Tavisca Bucks</a:ProviderName>
+                </a:FormOfPayment>
+              </a:Payments>
+            </a:FormOfPayment>
+            <a:Media>
+              <a:MediaItems>
+                <a:MediaItem>
+                  <a:ItemCode>1</a:ItemCode>
+                  <a:AdditionalData i:nil="true"/>
+                  <a:Description i:nil="true"/>
+                  <a:Type>TimelineImage</a:Type>
+                  <a:Url>http://www.mysite.com/myimg.jpg</a:Url>
+                </a:MediaItem>
+              </a:MediaItems>
+            </a:Media>
+            <a:Membership>
+              <a:Memberships>
+                <a:Membership>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode>1</a:ItemCode>
+                  <a:Category>Air</a:Category>
+                  <a:Code>CBX129PQ2</a:Code>
+                  <a:EndDate>2015-02-09T23:28:27.7733751+05:30</a:EndDate>
+                  <a:PreferenceOrder>1</a:PreferenceOrder>
+                  <a:ProviderCode>AA</a:ProviderCode>
+                  <a:ProviderName>American Airlines</a:ProviderName>
+                  <a:StartDate>2015-01-09T23:28:27.7733751+05:30</a:StartDate>
+                  <a:Status>Active</a:Status>
+                  <a:Type>Promotional Code</a:Type>
+                </a:Membership>
+                <a:Membership>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode>2</a:ItemCode>
+                  <a:Category>Hotel</a:Category>
+                  <a:Code>HOT120YQ9</a:Code>
+                  <a:EndDate>2015-02-09T23:28:27.7733751+05:30</a:EndDate>
+                  <a:PreferenceOrder>1</a:PreferenceOrder>
+                  <a:ProviderCode>TR</a:ProviderCode>
+                  <a:ProviderName>Tourico</a:ProviderName>
+                  <a:StartDate>2015-01-09T23:28:27.7733751+05:30</a:StartDate>
+                  <a:Status>Active</a:Status>
+                  <a:Type>Promotional Code</a:Type>
+                </a:Membership>
+              </a:Memberships>
+            </a:Membership>
+            <a:Preference>
+              <a:Preferences>
+                <a:Preference i:type="a:AirPreference">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode>1</a:ItemCode>
+                  <a:ClassOfService>Business</a:ClassOfService>
+                  <a:DefaultOrigin>LAS</a:DefaultOrigin>
+                  <a:ExcludeAirlines xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                    <b:string>NW</b:string>
+                    <b:string>SW</b:string>
+                  </a:ExcludeAirlines>
+                  <a:ExcludeConnections>false</a:ExcludeConnections>
+                  <a:ExcludePenaltyFares>true</a:ExcludePenaltyFares>
+                  <a:MaximumConnections>4</a:MaximumConnections>
+                  <a:MealType>Veg</a:MealType>
+                  <a:PreferredAirlines xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                    <b:string>AA</b:string>
+                    <b:string>UA</b:string>
+                  </a:PreferredAirlines>
+                  <a:PreferredBillingAddress>Office</a:PreferredBillingAddress>
+                  <a:PreferredTicketOption>ETicket</a:PreferredTicketOption>
+                  <a:SeatPreference>Window</a:SeatPreference>
+                  <a:SeatRowPreference>Wing</a:SeatRowPreference>
+                </a:Preference>
+                <a:Preference i:type="a:HotelPreference">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode i:nil="true"/>
+                  <a:ExcludeChains xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                    <b:string>AB</b:string>
+                    <b:string>CD</b:string>
+                    <b:string>EF</b:string>
+                  </a:ExcludeChains>
+                  <a:MealType>NonVeg</a:MealType>
+                  <a:PreferredChains i:nil="true" xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                  <a:RoomBedPreference>King</a:RoomBedPreference>
+                  <a:SmokingPreferred>false</a:SmokingPreferred>
+                </a:Preference>
+                <a:Preference i:type="a:CarPreference">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode i:nil="true"/>
+                  <a:ExcludeCarCompanies i:nil="true" xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                  <a:PreferredCarClasses i:nil="true"/>
+                  <a:PreferredCarCompanies xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                    <b:string>Alamo</b:string>
+                    <b:string>National</b:string>
+                  </a:PreferredCarCompanies>
+                  <a:PreferredCarTypes i:nil="true"/>
+                  <a:PreferredDoorCount>0</a:PreferredDoorCount>
+                </a:Preference>
+                <a:Preference i:type="a:ActivityPreference">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode i:nil="true"/>
+                  <a:Options xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                    <b:string>Air, Helicopter, and Balloon Tours;</b:string>
+                    <b:string>Sightseeing Tickets &amp; Passes; </b:string>
+                  </a:Options>
+                  <a:OtherPreferences>
+                    <a:KeyValueCollection>
+                      <a:KeyValuePairs xmlns:b="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                        <b:KeyValuePairOfstringstring>
+                          <b:key>SampleKey1</b:key>
+                          <b:value>SampleValue1</b:value>
+                        </b:KeyValuePairOfstringstring>
+                      </a:KeyValuePairs>
+                      <a:Name>TestActivityPref</a:Name>
+                    </a:KeyValueCollection>
+                  </a:OtherPreferences>
+                </a:Preference>
+                <a:Preference i:type="a:CruisePreference">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode i:nil="true"/>
+                  <a:CabinPreferences xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                    <b:string>TestCabinPref</b:string>
+                  </a:CabinPreferences>
+                  <a:CruiseLines xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                    <b:string>CruiseLineA</b:string>
+                    <b:string>Cruise Line B</b:string>
+                  </a:CruiseLines>
+                  <a:DeparturePorts xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                    <b:string>ABC</b:string>
+                    <b:string>PQR</b:string>
+                  </a:DeparturePorts>
+                  <a:Duration>
+                    <a:MaxDays>4</a:MaxDays>
+                    <a:MinDays>2</a:MinDays>
+                  </a:Duration>
+                  <a:OtherPreferences>
+                    <a:KeyValueCollection>
+                      <a:KeyValuePairs xmlns:b="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                        <b:KeyValuePairOfstringstring>
+                          <b:key>SampleKey1</b:key>
+                          <b:value>SampleValue1</b:value>
+                        </b:KeyValuePairOfstringstring>
+                      </a:KeyValuePairs>
+                      <a:Name>TestCruisePref</a:Name>
+                    </a:KeyValueCollection>
+                  </a:OtherPreferences>
+                </a:Preference>
+                <a:Preference i:type="a:GeneralPreference">
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode i:nil="true"/>
+                  <a:Preferences>
+                    <a:KeyValueCollection>
+                      <a:KeyValuePairs xmlns:b="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                        <b:KeyValuePairOfstringstring>
+                          <b:key>SampleKey1</b:key>
+                          <b:value>SampleValue1</b:value>
+                        </b:KeyValuePairOfstringstring>
+                      </a:KeyValuePairs>
+                      <a:Name>TestGeneralPref</a:Name>
+                    </a:KeyValueCollection>
+                  </a:Preferences>
+                  <a:Type i:nil="true"/>
+                </a:Preference>
+              </a:Preferences>
+            </a:Preference>
+            <a:StatusMessage>
+              <a:StatusText>I love travelling!</a:StatusText>
+            </a:StatusMessage>
+            <a:FellowPax>
+              <a:FellowTravellers>
+                <a:TravellerInfo>
+                  <a:ItemCode>1</a:ItemCode>
+                  <a:Email>
+                    <a:IsDefault>false</a:IsDefault>
+                    <a:Value>pax@tavisca.com</a:Value>
+                  </a:Email>
+                  <a:Memberships>
+                    <a:TravellerMembership>
+                      <a:Category>Air</a:Category>
+                      <a:Code>TRA852LG2</a:Code>
+                      <a:EndDate>2015-02-09T23:28:27.7483726+05:30</a:EndDate>
+                      <a:PreferenceOrder>1</a:PreferenceOrder>
+                      <a:ProviderCode>BA</a:ProviderCode>
+                      <a:ProviderName>British Airways</a:ProviderName>
+                      <a:StartDate>2015-01-09T23:28:27.7483726+05:30</a:StartDate>
+                      <a:Status>Active</a:Status>
+                      <a:Type>Corporate Code</a:Type>
+                    </a:TravellerMembership>
+                  </a:Memberships>
+                  <a:Passport>
+                    <a:ExpiryDate>2025-01-09T23:28:27.7443722+05:30</a:ExpiryDate>
+                    <a:IssueDate>2015-01-09T23:28:27.7443722+05:30</a:IssueDate>
+                    <a:IssuingCountry>IN</a:IssuingCountry>
+                    <a:Name>
+                      <a:FirstName>Alex</a:FirstName>
+                      <a:LastName>Doe</a:LastName>
+                      <a:MiddleName>X</a:MiddleName>
+                      <a:Prefix i:nil="true"/>
+                      <a:Suffix i:nil="true"/>
+                      <a:Title>Mr</a:Title>
+                    </a:Name>
+                    <a:PassportNumber>K7719699</a:PassportNumber>
+                  </a:Passport>
+                  <a:PersonalInfo>
+                    <a:DateOfBirth>2003-01-09T23:28:27.7443722+05:30</a:DateOfBirth>
+                    <a:Gender>Male</a:Gender>
+                    <a:Name>
+                      <a:FirstName>Johny</a:FirstName>
+                      <a:LastName>Y</a:LastName>
+                      <a:MiddleName>Doe</a:MiddleName>
+                      <a:Prefix i:nil="true"/>
+                      <a:Suffix i:nil="true"/>
+                      <a:Title>Mr</a:Title>
+                    </a:Name>
+                  </a:PersonalInfo>
+                  <a:Phone>
+                    <a:AreaCode>02327</a:AreaCode>
+                    <a:CountryCode>+91</a:CountryCode>
+                    <a:Extension i:nil="true"/>
+                    <a:IsDefault>false</a:IsDefault>
+                    <a:Location>Home</a:Location>
+                    <a:Type>Cell</a:Type>
+                    <a:Value>9999900005</a:Value>
+                  </a:Phone>
+                </a:TravellerInfo>
+              </a:FellowTravellers>
+            </a:FellowPax>
+            <a:Passport>
+              <a:Passports>
+                <a:Passport>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:ItemCode>1</a:ItemCode>
+                  <a:ExpiryDate>2025-01-09T23:28:27.742372+05:30</a:ExpiryDate>
+                  <a:IssueDate>2015-01-09T23:28:27.742372+05:30</a:IssueDate>
+                  <a:IssuingCountry>IN</a:IssuingCountry>
+                  <a:Name>
+                    <a:FirstName>John</a:FirstName>
+                    <a:LastName>Doe</a:LastName>
+                    <a:MiddleName>X</a:MiddleName>
+                    <a:Prefix i:nil="true"/>
+                    <a:Suffix i:nil="true"/>
+                    <a:Title>Mr</a:Title>
+                  </a:Name>
+                  <a:PassportNumber>K4719699</a:PassportNumber>
+                </a:Passport>
+              </a:Passports>
+            </a:Passport>
+          </a:Profile>
+          <a:ProfileImage>C:\myImage.jpg</a:ProfileImage>
+          <a:UserName i:nil="true"/>
+        </a:User>
+      </createUserRequest>
+    </CreateUser>
+  </s:Body>
+</s:Envelope>

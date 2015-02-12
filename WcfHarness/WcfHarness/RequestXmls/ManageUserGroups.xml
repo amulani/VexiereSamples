@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ManageUserGroups xmlns="http://www.tavisca.com/Vexiere/IUserGroup/2013/01">
+      <manageUserGroupsRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:Commands>
+          <a:AddOrRemoveUsersInGroupsCommand i:type="a:AddUsersInGroupsCommand">
+            <a:UserGroupIdentifiers>
+              <a:UserGroupIdentifiers i:type="a:IdBasedUserGroupIdentifier">
+                <a:Id>83</a:Id>
+              </a:UserGroupIdentifiers>
+              <a:UserGroupIdentifiers i:type="a:IdBasedUserGroupIdentifier">
+                <a:Id>84</a:Id>
+              </a:UserGroupIdentifiers>
+            </a:UserGroupIdentifiers>
+            <a:UsersIdentifiers i:type="a:IdBasedUserIdentifiers">
+              <a:UsersIdentifiers>
+                <a:IdBasedUserIdentifiers>
+                  <a:Id>146</a:Id>
+                </a:IdBasedUserIdentifiers>
+                <a:IdBasedUserIdentifiers>
+                  <a:Id>147</a:Id>
+                </a:IdBasedUserIdentifiers>
+              </a:UsersIdentifiers>
+            </a:UsersIdentifiers>
+          </a:AddOrRemoveUsersInGroupsCommand>
+        </a:Commands>
+      </manageUserGroupsRequest>
+    </ManageUserGroups>
+  </s:Body>
+</s:Envelope>

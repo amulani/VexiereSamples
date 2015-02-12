@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <CreateOpenIdConnectClient xmlns="http://www.tavisca.com/Vexiere/IOpenIdConnectClient/2013/01">
+      <reqest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:OpenIdConnectClient>
+          <a:CreatedOn>0001-01-01T00:00:00</a:CreatedOn>
+          <a:Id>0</a:Id>
+          <a:ModifiedOn>0001-01-01T00:00:00</a:ModifiedOn>
+          <a:Status>Active</a:Status>
+          <a:AccessTokenLifetime>60</a:AccessTokenLifetime>
+          <a:AllowRefreshToken>true</a:AllowRefreshToken>
+          <a:Flow>AuthorizationCode ResourceOwnerCredential ClientCredentials</a:Flow>
+          <a:IsDeleted>false</a:IsDeleted>
+          <a:RedirectUris xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <b:string>https://fo.tavisca.com:9443/</b:string>
+          </a:RedirectUris>
+          <a:RefreshTokenLifetime>10</a:RefreshTokenLifetime>
+          <a:RequireConsent>true</a:RequireConsent>
+        </a:OpenIdConnectClient>
+        <a:OwnerOrganizationIdentifier i:nil="true"/>
+      </reqest>
+    </CreateOpenIdConnectClient>
+  </s:Body>
+</s:Envelope>

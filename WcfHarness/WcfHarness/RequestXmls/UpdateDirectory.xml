@@ -1,0 +1,17 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <UpdateDirectory xmlns="http://www.tavisca.com/Vexiere/IDirectory/2013/01">
+      <updateDirectoryRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:Directory>
+          <a:AccessModifier>Public</a:AccessModifier>
+          <a:DirectoryTypeId>1</a:DirectoryTypeId>
+          <a:Id>7</a:Id>
+          <a:IsDefault>true</a:IsDefault>
+          <a:Name i:nil="true"/>
+          <a:Settings xmlns:b="http://schemas.datacontract.org/2004/07/System.Collections.Generic"/>
+        </a:Directory>
+      </updateDirectoryRequest>
+    </UpdateDirectory>
+  </s:Body>
+</s:Envelope>

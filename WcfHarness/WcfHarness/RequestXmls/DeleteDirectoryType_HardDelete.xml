@@ -1,0 +1,13 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <DeleteDirectoryType xmlns="http://www.tavisca.com/Vexiere/IDirectoryType/2013/01">
+      <deleteDirTypeRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:DirectoryTypeIdentifier i:type="a:IdBasedDirectoryTypeIdentifier">
+          <a:DirectoryTypeId>4</a:DirectoryTypeId>
+        </a:DirectoryTypeIdentifier>
+        <a:IsHardDelete>true</a:IsHardDelete>
+      </deleteDirTypeRequest>
+    </DeleteDirectoryType>
+  </s:Body>
+</s:Envelope>

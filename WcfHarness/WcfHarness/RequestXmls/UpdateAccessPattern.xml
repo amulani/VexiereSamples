@@ -1,0 +1,20 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <UpdateAccessPattern xmlns="http://www.tavisca.com/Vexiere/IAccount/2013/01">
+      <updateAccessPatternRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:ApplicationAccessPatterns>
+          <a:AccessPattern>
+            <a:ApplicationName>BackOffice</a:ApplicationName>
+            <a:Urls xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              <b:anyURI>http://root.rootapp.com/4d6f59b1-1f60-48f9-a24d-aa7ce662ed03</b:anyURI>
+              <b:anyURI>http://root.rootapp.com/372d168f-459b-4310-9ca3-1652c7d15a18</b:anyURI>
+            </a:Urls>
+          </a:AccessPattern>
+        </a:ApplicationAccessPatterns>
+        <a:OrganizationCode>root</a:OrganizationCode>
+        <a:OrganizationId>2</a:OrganizationId>
+      </updateAccessPatternRequest>
+    </UpdateAccessPattern>
+  </s:Body>
+</s:Envelope>

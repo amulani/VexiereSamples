@@ -1,0 +1,75 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <CreateApplication xmlns="http://www.tavisca.com/Vexiere/IApplication/2013/01">
+      <createApplicationRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData>
+          <a:KeyValueState>
+            <a:AccessModifier>Public</a:AccessModifier>
+            <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+            <a:Key>IpAddress</a:Key>
+            <a:Value>192.168.1.11</a:Value>
+          </a:KeyValueState>
+          <a:KeyValueState>
+            <a:AccessModifier>Public</a:AccessModifier>
+            <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+            <a:Key>UserSessionId</a:Key>
+            <a:Value>f9e8bd46-2b5f-461a-be4c-eb5132f2af9e</a:Value>
+          </a:KeyValueState>
+        </a:AdditionalData>
+        <a:Application>
+          <a:CreatedOn>2015-01-09T18:14:28.8944776Z</a:CreatedOn>
+          <a:Id>0</a:Id>
+          <a:ModifiedOn>2015-01-09T18:14:28.8944776Z</a:ModifiedOn>
+          <a:Status>Active</a:Status>
+          <a:AccessModifier>Public</a:AccessModifier>
+          <a:AllowedDirectories i:nil="true"/>
+          <a:Configurations>
+            <a:KeyValueSection>
+              <a:AccessModifier>Public</a:AccessModifier>
+              <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+              <a:KeyValueSettings>
+                <a:KeyValueState>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:Key>Key</a:Key>
+                  <a:Value>Value</a:Value>
+                </a:KeyValueState>
+                <a:KeyValueState>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:Key>Key1</a:Key>
+                  <a:Value>Value1</a:Value>
+                </a:KeyValueState>
+              </a:KeyValueSettings>
+              <a:Name>SectionA</a:Name>
+            </a:KeyValueSection>
+            <a:KeyValueSection>
+              <a:AccessModifier>Public</a:AccessModifier>
+              <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+              <a:KeyValueSettings>
+                <a:KeyValueState>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:Key>Key</a:Key>
+                  <a:Value>Value</a:Value>
+                </a:KeyValueState>
+                <a:KeyValueState>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:Key>Key1</a:Key>
+                  <a:Value>Value1</a:Value>
+                </a:KeyValueState>
+              </a:KeyValueSettings>
+              <a:Name>SectionB</a:Name>
+            </a:KeyValueSection>
+          </a:Configurations>
+          <a:Description>Application created through test case</a:Description>
+          <a:Name>83181bcc-9cc4-4faf-be3e-5da3b6cb8306</a:Name>
+        </a:Application>
+        <a:OwnerOrganizationIdentifier i:type="a:IdBasedOrganizationIdentifier">
+          <a:Id>1</a:Id>
+        </a:OwnerOrganizationIdentifier>
+      </createApplicationRequest>
+    </CreateApplication>
+  </s:Body>
+</s:Envelope>

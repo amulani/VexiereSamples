@@ -1,0 +1,16 @@
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\Tavisca.Vexiere.WcfHarness.dll
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\Tavisca.Vexiere.WcfHarness.pdb
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\Newtonsoft.Json.dll
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\Thinktecture.IdentityModel.dll
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\System.Web.Http.dll
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\System.Net.Http.Formatting.dll
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\Newtonsoft.Json.xml
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\Thinktecture.IdentityModel.pdb
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\Thinktecture.IdentityModel.xml
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\System.Web.Http.xml
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\bin\System.Net.Http.Formatting.xml
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\obj\Debug\Tavisca.Vexiere.WcfHarness.csprojResolveAssemblyReference.cache
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\obj\Debug\Tavisca.Vexiere.WcfHarness.dll
+D:\Vexiere Repository\Tavisca.Vexiere.WcfHarness\obj\Debug\Tavisca.Vexiere.WcfHarness.pdb

@@ -1,0 +1,18 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <UpdateUserGroup xmlns="http://www.tavisca.com/Vexiere/IUserGroup/2013/01">
+      <updateUserRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:UserGroup>
+          <a:CreatedOn>2015-01-09T19:50:05.1710479Z</a:CreatedOn>
+          <a:Id>1</a:Id>
+          <a:ModifiedOn>0001-01-01T00:00:00</a:ModifiedOn>
+          <a:Status>Active</a:Status>
+          <a:Description>Updated test group description</a:Description>
+          <a:IsDefault>false</a:IsDefault>
+          <a:Name i:nil="true"/>
+        </a:UserGroup>
+      </updateUserRequest>
+    </UpdateUserGroup>
+  </s:Body>
+</s:Envelope>

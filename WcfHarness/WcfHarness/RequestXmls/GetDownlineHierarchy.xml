@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetHierarchy xmlns="http://www.tavisca.com/Vexiere/IHierarchy/2013/01">
+      <query i:type="a:GetDownlineHierarchyRQ" xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:Level>0</a:Level>
+        <a:ReferenceNodeId>1</a:ReferenceNodeId>
+        <a:StatusFilter>Active</a:StatusFilter>
+        <a:Type i:nil="true"/>
+        <a:IsNameFuzzyMatch>true</a:IsNameFuzzyMatch>
+        <a:Name i:nil="true"/>
+        <a:PageNumber>1</a:PageNumber>
+        <a:PageSize>20</a:PageSize>
+      </query>
+    </GetHierarchy>
+  </s:Body>
+</s:Envelope>

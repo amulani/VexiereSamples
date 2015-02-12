@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <CreateRole xmlns="http://www.tavisca.com/Vexiere/IRole/2013/01">
+      <createRoleRequest i:type="a:CreateOrganizationRoleRQ" xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:OrganizationIdentifier i:type="a:IdBasedOrganizationIdentifier">
+          <a:Id>1</a:Id>
+        </a:OrganizationIdentifier>
+        <a:Role>
+          <a:CreatedOn>0001-01-01T00:00:00</a:CreatedOn>
+          <a:Id>0</a:Id>
+          <a:ModifiedOn>0001-01-01T00:00:00</a:ModifiedOn>
+          <a:Status>Active</a:Status>
+          <a:Description>trial role.</a:Description>
+          <a:IsDefault>false</a:IsDefault>
+          <a:IsDeleted>false</a:IsDeleted>
+          <a:Name>bcf4d23c-8894-4690-bbeb-gfhg2dfbbdc4ed08</a:Name>
+        </a:Role>
+      </createRoleRequest>
+    </CreateRole>
+  </s:Body>
+</s:Envelope>

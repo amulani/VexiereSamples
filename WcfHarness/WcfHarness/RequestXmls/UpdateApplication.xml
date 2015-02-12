@@ -1,0 +1,72 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <UpdateApplication xmlns="http://www.tavisca.com/Vexiere/IApplication/2013/01">
+      <updateApplicationRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:Commands>
+          <a:UpdateApplicationCommand i:type="a:AddOrUpdateApplicationInfoCommand">
+            <a:Application>
+              <a:CreatedOn>0001-01-01T00:00:00</a:CreatedOn>
+              <a:Id>6</a:Id>
+              <a:ModifiedOn>0001-01-01T00:00:00</a:ModifiedOn>
+              <a:Status>Active</a:Status>
+              <a:AccessModifier>Public</a:AccessModifier>
+              <a:AllowedDirectories i:nil="true"/>
+              <a:Configurations>
+                <a:KeyValueSection>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:KeyValueSettings>
+                    <a:KeyValueState>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:Key>Key</a:Key>
+                      <a:Value>Updated_Value</a:Value>
+                    </a:KeyValueState>
+                  </a:KeyValueSettings>
+                  <a:Name>SectionA</a:Name>
+                </a:KeyValueSection>
+              </a:Configurations>
+              <a:Description i:nil="true"/>
+              <a:Name i:nil="true"/>
+            </a:Application>
+            <a:ApplicationInfoUpdateScope>
+              <a:ApplicationInfoSections>
+                <a:ApplicationInfoSectionType>Configuration</a:ApplicationInfoSectionType>
+              </a:ApplicationInfoSections>
+              <a:ExcludeSections>false</a:ExcludeSections>
+            </a:ApplicationInfoUpdateScope>
+            <a:ExecutionOrder>1</a:ExecutionOrder>
+          </a:UpdateApplicationCommand>
+          <a:UpdateApplicationCommand i:type="a:RemoveApplicationInfoCommand">
+            <a:Application>
+              <a:CreatedOn>0001-01-01T00:00:00</a:CreatedOn>
+              <a:Id>6</a:Id>
+              <a:ModifiedOn>0001-01-01T00:00:00</a:ModifiedOn>
+              <a:Status>Active</a:Status>
+              <a:AccessModifier>Public</a:AccessModifier>
+              <a:AllowedDirectories i:nil="true"/>
+              <a:Configurations>
+                <a:KeyValueSection>
+                  <a:AccessModifier>Public</a:AccessModifier>
+                  <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                  <a:KeyValueSettings i:nil="true"/>
+                  <a:Name>SectionB</a:Name>
+                </a:KeyValueSection>
+              </a:Configurations>
+              <a:Description i:nil="true"/>
+              <a:Name i:nil="true"/>
+            </a:Application>
+            <a:ApplicationInfoUpdateScope>
+              <a:ApplicationInfoSections>
+                <a:ApplicationInfoSectionType>Configuration</a:ApplicationInfoSectionType>
+              </a:ApplicationInfoSections>
+              <a:ExcludeSections>false</a:ExcludeSections>
+            </a:ApplicationInfoUpdateScope>
+            <a:ExecutionOrder>2</a:ExecutionOrder>
+          </a:UpdateApplicationCommand>
+        </a:Commands>
+      </updateApplicationRequest>
+    </UpdateApplication>
+  </s:Body>
+</s:Envelope>

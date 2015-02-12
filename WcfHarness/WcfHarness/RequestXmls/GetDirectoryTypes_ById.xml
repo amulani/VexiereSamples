@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetDirectoryTypes xmlns="http://www.tavisca.com/Vexiere/IDirectoryType/2013/01">
+      <request xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:FilterParameters>
+          <a:FilterParameter>
+            <a:SearchOn>Id</a:SearchOn>
+            <a:SearchOperator>EqualTo</a:SearchOperator>
+            <a:SearchValue i:type="a:NumericValue">
+              <a:Value>7</a:Value>
+            </a:SearchValue>
+          </a:FilterParameter>
+        </a:FilterParameters>
+        <a:PagingInfo i:nil="true"/>
+        <a:SearchScope i:nil="true"/>
+        <a:SortingInfo i:nil="true"/>
+      </request>
+    </GetDirectoryTypes>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,13 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetAPIKeyRoles xmlns="http://www.tavisca.com/Vexiere/IAPIKey/2013/01">
+      <getAPIKeyRolesRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:APIKey>ZWE3YWY1OTgtY2VlOC00NjY3LWFiYTQtNWY5OTdjNTUyNGZi</a:APIKey>
+        <a:OwnerOrganizationIdentifier i:type="a:IdBasedOrganizationIdentifier">
+          <a:Id>1</a:Id>
+        </a:OwnerOrganizationIdentifier>
+      </getAPIKeyRolesRequest>
+    </GetAPIKeyRoles>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetApplications xmlns="http://www.tavisca.com/Vexiere/IApplication/2013/01">
+      <getApplicationsRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:FilterParameters>
+          <a:FilterParameter>
+            <a:SearchOn>ApplicationName</a:SearchOn>
+            <a:SearchOperator>EqualTo</a:SearchOperator>
+            <a:SearchValue i:type="a:TextValue">
+              <a:Value>7e9b0e5a-f10e-4e4e-96be-a56a2b81b2bc</a:Value>
+            </a:SearchValue>
+          </a:FilterParameter>
+        </a:FilterParameters>
+        <a:PagingInfo i:nil="true"/>
+        <a:RequiredInfoScope>
+          <a:ApplicationInfoSections i:nil="true"/>
+          <a:ExcludeSections>true</a:ExcludeSections>
+        </a:RequiredInfoScope>
+        <a:SearchScope>
+          <a:OrganizationIdentifier>
+            <a:Id>1</a:Id>
+          </a:OrganizationIdentifier>
+        </a:SearchScope>
+        <a:SortingInfo i:nil="true"/>
+      </getApplicationsRequest>
+    </GetApplications>
+  </s:Body>
+</s:Envelope>

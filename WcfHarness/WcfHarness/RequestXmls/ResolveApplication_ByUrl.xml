@@ -1,0 +1,12 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ResolveApplication xmlns="http://www.tavisca.com/Vexiere/IAccount/2013/01">
+      <resolveApplicationRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:SearchToken i:type="a:UrlSearchToken">
+          <a:Url>http://root.rootapp.com/df862201-955e-4d07-9482-fa0526de88fd</a:Url>
+        </a:SearchToken>
+      </resolveApplicationRequest>
+    </ResolveApplication>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetNodes xmlns="http://www.tavisca.com/Vexiere/IHierarchy/2013/01">
+      <request xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:NodeIds xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <b:long>1</b:long>
+        </a:NodeIds>
+      </request>
+    </GetNodes>
+  </s:Body>
+</s:Envelope>

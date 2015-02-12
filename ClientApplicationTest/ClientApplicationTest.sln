@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApplicationTest", "ClientApplicationTest\ClientApplicationTest.csproj", "{765CD680-6D17-4237-A315-CB1A00163E70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{77D79666-0481-45F8-9550-A2EC41CEF2AB}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Perf|Any CPU = Perf|Any CPU
+		Qa|Any CPU = Qa|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Stage|Any CPU = Stage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Perf|Any CPU.ActiveCfg = Perf|Any CPU
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Perf|Any CPU.Build.0 = Perf|Any CPU
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Qa|Any CPU.ActiveCfg = Qa|Any CPU
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Qa|Any CPU.Build.0 = Qa|Any CPU
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{765CD680-6D17-4237-A315-CB1A00163E70}.Stage|Any CPU.Build.0 = Stage|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

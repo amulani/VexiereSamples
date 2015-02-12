@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetOrganizations xmlns="http://www.tavisca.com/Vexiere/IOrganization/2013/01">
+      <getOrgRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:FilterParameters>
+          <a:FilterParameter>
+            <a:SearchOn>Organizationname</a:SearchOn>
+            <a:SearchOperator>Like</a:SearchOperator>
+            <a:SearchValue i:type="a:TextValue">
+              <a:Value>test</a:Value>
+            </a:SearchValue>
+          </a:FilterParameter>
+          <a:FilterParameter>
+            <a:SearchOn>Profile.Address.Addresses.City</a:SearchOn>
+            <a:SearchOperator>EqualTo</a:SearchOperator>
+            <a:SearchValue i:type="a:TextValue">
+              <a:Value>Pune</a:Value>
+            </a:SearchValue>
+          </a:FilterParameter>
+        </a:FilterParameters>
+        <a:IncludeOrganizationStats>false</a:IncludeOrganizationStats>
+        <a:PagingInfo>
+          <a:PageNumber>1</a:PageNumber>
+          <a:PageSize>10</a:PageSize>
+        </a:PagingInfo>
+        <a:RequiredInfoScope>
+          <a:ExcludeSections>true</a:ExcludeSections>
+          <a:OrganizationInfoSections i:nil="true"/>
+        </a:RequiredInfoScope>
+        <a:SearchScope>
+          <a:ParentOrgIdentified>
+            <a:Id>1</a:Id>
+          </a:ParentOrgIdentified>
+        </a:SearchScope>
+        <a:SortingInfo i:nil="true"/>
+      </getOrgRequest>
+    </GetOrganizations>
+  </s:Body>
+</s:Envelope>

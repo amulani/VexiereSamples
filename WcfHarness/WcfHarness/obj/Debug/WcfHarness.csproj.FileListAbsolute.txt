@@ -1,0 +1,15 @@
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\obj\Debug\Tavisca.Vexiere.WcfHarness.dll
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\obj\Debug\Tavisca.Vexiere.WcfHarness.pdb
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\Tavisca.Vexiere.WcfHarness.dll
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\Tavisca.Vexiere.WcfHarness.pdb
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\Newtonsoft.Json.dll
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\Thinktecture.IdentityModel.dll
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\System.Web.Http.dll
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\System.Net.Http.Formatting.dll
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\Newtonsoft.Json.xml
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\Thinktecture.IdentityModel.pdb
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\Thinktecture.IdentityModel.xml
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\System.Web.Http.xml
+D:\Vexiere Samples\WcfHarness\WcfHarness\WcfHarness\bin\System.Net.Http.Formatting.xml

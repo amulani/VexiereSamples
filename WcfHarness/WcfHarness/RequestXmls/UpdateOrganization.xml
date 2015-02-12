@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <UpdateOrganization xmlns="http://www.tavisca.com/Vexiere/IOrganization/2013/01">
+      <updateOrgRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:Commands>
+          <a:UpdateOrganizationCommand i:type="a:AddOrUpdateOrganizationInfoCommand">
+            <a:OrderRank>1</a:OrderRank>
+            <a:Organization>
+              <a:CreatedOn>0001-01-01T00:00:00</a:CreatedOn>
+              <a:Id>9</a:Id>
+              <a:ModifiedOn>0001-01-01T00:00:00</a:ModifiedOn>
+              <a:Status>Active</a:Status>
+              <a:BusinessType i:nil="true"/>
+              <a:Description i:nil="true"/>
+              <a:Name i:nil="true"/>
+              <a:OperatingCountry i:nil="true"/>
+              <a:PrimaryCurrency i:nil="true"/>
+              <a:Profile>
+                <a:AdditionalData>
+                  <a:KeyValueState>
+                    <a:AccessModifier>Public</a:AccessModifier>
+                    <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                    <a:Key>Additionalkey1</a:Key>
+                    <a:Value>AdditionalValue_Updated</a:Value>
+                  </a:KeyValueState>
+                  <a:KeyValueState>
+                    <a:AccessModifier>Public</a:AccessModifier>
+                    <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                    <a:Key>Additionalkey2</a:Key>
+                    <a:Value>AdditionalValue2</a:Value>
+                  </a:KeyValueState>
+                </a:AdditionalData>
+                <a:Address>
+                  <a:Addresses>
+                    <a:Address>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode i:nil="true"/>
+                      <a:AddressLine1>AACP</a:AddressLine1>
+                      <a:AddressLine2>Pune</a:AddressLine2>
+                      <a:AddressScheme>Standard</a:AddressScheme>
+                      <a:City>Pune</a:City>
+                      <a:Country>India</a:Country>
+                      <a:State>Maharashtra</a:State>
+                      <a:Type>Office</a:Type>
+                      <a:Zip>400133</a:Zip>
+                    </a:Address>
+                  </a:Addresses>
+                </a:Address>
+                <a:Affiliation>
+                  <a:Affiliations>
+                    <a:Affiliation>
+                      <a:ItemCode>2</a:ItemCode>
+                      <a:AffiliatedBy>Govt of India</a:AffiliatedBy>
+                      <a:Description>Unique tax information number</a:Description>
+                      <a:Name>TIN/Updated</a:Name>
+                      <a:Type>Tax Info Number</a:Type>
+                      <a:Value>TIN123</a:Value>
+                    </a:Affiliation>
+                  </a:Affiliations>
+                </a:Affiliation>
+                <a:Configuration>
+                  <a:Sections>
+                    <a:KeyValueSection>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:KeyValueSettings>
+                        <a:KeyValueState>
+                          <a:AccessModifier>Public</a:AccessModifier>
+                          <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                          <a:Key>Key</a:Key>
+                          <a:Value>Updated_Value</a:Value>
+                        </a:KeyValueState>
+                      </a:KeyValueSettings>
+                      <a:Name>SectionA</a:Name>
+                    </a:KeyValueSection>
+                  </a:Sections>
+                </a:Configuration>
+                <a:Contact>
+                  <a:Contacts>
+                    <a:Contact i:type="a:Phone">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>2</a:ItemCode>
+                      <a:AreaCode/>
+                      <a:CountryCode>+91</a:CountryCode>
+                      <a:Extension/>
+                      <a:IsDefault>false</a:IsDefault>
+                      <a:Location>Office</a:Location>
+                      <a:Type>Cell</a:Type>
+                      <a:Value>9021284186/Updated</a:Value>
+                    </a:Contact>
+                    <a:Contact i:type="a:Email">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>3</a:ItemCode>
+                      <a:IsDefault>true</a:IsDefault>
+                      <a:Value>demoaccountupdated@tavisca.com</a:Value>
+                    </a:Contact>
+                  </a:Contacts>
+                </a:Contact>
+                <a:CustomContract i:nil="true"/>
+                <a:CustomData i:nil="true"/>
+                <a:FormOfPayment>
+                  <a:Payments>
+                    <a:FormOfPayment i:type="a:SoftCash">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>1</a:ItemCode>
+                      <a:Type>SoftCash</a:Type>
+                      <a:AccountNumber>0539111333</a:AccountNumber>
+                      <a:ProviderCode>TB</a:ProviderCode>
+                      <a:ProviderName>Tavisca Updated Bucks</a:ProviderName>
+                    </a:FormOfPayment>
+                    <a:FormOfPayment i:type="a:BankAccount">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>2</a:ItemCode>
+                      <a:Type i:nil="true"/>
+                      <a:AccountNumber>111222333</a:AccountNumber>
+                      <a:BankName>HDFC</a:BankName>
+                      <a:BranchCode>HDFC0069</a:BranchCode>
+                      <a:BranchName>MyBranch</a:BranchName>
+                    </a:FormOfPayment>
+                  </a:Payments>
+                </a:FormOfPayment>
+                <a:Media>
+                  <a:MediaItems>
+                    <a:MediaItem>
+                      <a:ItemCode>2</a:ItemCode>
+                      <a:AdditionalData i:nil="true"/>
+                      <a:Description i:nil="true"/>
+                      <a:Type>DemoVideo</a:Type>
+                      <a:Url>http://www.mysite.com/demo.avi</a:Url>
+                    </a:MediaItem>
+                  </a:MediaItems>
+                </a:Media>
+                <a:Membership>
+                  <a:Memberships>
+                    <a:Membership>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>1</a:ItemCode>
+                      <a:Category>Air</a:Category>
+                      <a:Code>CBX129PQ2</a:Code>
+                      <a:EndDate>2015-02-09T23:14:30.9607022+05:30</a:EndDate>
+                      <a:PreferenceOrder>1</a:PreferenceOrder>
+                      <a:ProviderCode>UE</a:ProviderCode>
+                      <a:ProviderName>Fly Emirates</a:ProviderName>
+                      <a:StartDate>2015-01-09T23:14:30.9607022+05:30</a:StartDate>
+                      <a:Status>Active</a:Status>
+                      <a:Type>Promotional Code</a:Type>
+                    </a:Membership>
+                    <a:Membership>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode i:nil="true"/>
+                      <a:Category>Car</a:Category>
+                      <a:Code>CA1120YQ9</a:Code>
+                      <a:EndDate>2015-02-09T23:14:30.9607022+05:30</a:EndDate>
+                      <a:PreferenceOrder>1</a:PreferenceOrder>
+                      <a:ProviderCode>DN</a:ProviderCode>
+                      <a:ProviderName>DriveIn</a:ProviderName>
+                      <a:StartDate>2015-01-09T23:14:30.9607022+05:30</a:StartDate>
+                      <a:Status>Active</a:Status>
+                      <a:Type>Promotional Code</a:Type>
+                    </a:Membership>
+                  </a:Memberships>
+                </a:Membership>
+                <a:Preference>
+                  <a:Preferences>
+                    <a:Preference i:type="a:AirPreference">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode i:nil="true"/>
+                      <a:ClassOfService>Business</a:ClassOfService>
+                      <a:DefaultOrigin>LAS</a:DefaultOrigin>
+                      <a:ExcludeAirlines xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                        <b:string>NW</b:string>
+                        <b:string>SW</b:string>
+                      </a:ExcludeAirlines>
+                      <a:ExcludeConnections>false</a:ExcludeConnections>
+                      <a:ExcludePenaltyFares>true</a:ExcludePenaltyFares>
+                      <a:MaximumConnections>4</a:MaximumConnections>
+                      <a:MealType>Veg</a:MealType>
+                      <a:PreferredAirlines xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                        <b:string>AA</b:string>
+                        <b:string>UA</b:string>
+                      </a:PreferredAirlines>
+                      <a:PreferredBillingAddress>Office</a:PreferredBillingAddress>
+                      <a:PreferredTicketOption>ETicket</a:PreferredTicketOption>
+                      <a:SeatPreference>Window</a:SeatPreference>
+                      <a:SeatRowPreference>Wing</a:SeatRowPreference>
+                    </a:Preference>
+                  </a:Preferences>
+                </a:Preference>
+                <a:StatusMessage i:nil="true"/>
+                <a:Announcement>
+                  <a:Announcements>
+                    <a:Announcement>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>1</a:ItemCode>
+                      <a:Content>Update your password urgently.</a:Content>
+                      <a:EffectiveFrom>2015-01-09T23:14:30.9597021+05:30</a:EffectiveFrom>
+                      <a:ExpiryDate>2015-01-16T23:14:30.9597021+05:30</a:ExpiryDate>
+                      <a:IsEnabled>true</a:IsEnabled>
+                      <a:UserId>2</a:UserId>
+                      <a:UserName>adminUser</a:UserName>
+                    </a:Announcement>
+                    <a:Announcement>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>2</a:ItemCode>
+                      <a:Content>Annual meet on 14th Jan 2014</a:Content>
+                      <a:EffectiveFrom>2015-04-09T23:14:30.9597021+05:30</a:EffectiveFrom>
+                      <a:ExpiryDate>2015-05-09T23:14:30.9597021+05:30</a:ExpiryDate>
+                      <a:IsEnabled>true</a:IsEnabled>
+                      <a:UserId>2</a:UserId>
+                      <a:UserName>adminUser</a:UserName>
+                    </a:Announcement>
+                  </a:Announcements>
+                </a:Announcement>
+              </a:Profile>
+              <a:ProfileImage>C:\myImage1.jpg</a:ProfileImage>
+              <a:Type i:nil="true"/>
+            </a:Organization>
+            <a:OrganizationInfoScope>
+              <a:ExcludeSections>true</a:ExcludeSections>
+              <a:OrganizationInfoSections>
+                <a:OrganizationInfoSectionType>Profile_StatusMessage</a:OrganizationInfoSectionType>
+                <a:OrganizationInfoSectionType>Type</a:OrganizationInfoSectionType>
+                <a:OrganizationInfoSectionType>BusinessType</a:OrganizationInfoSectionType>
+                <a:OrganizationInfoSectionType>OperatingCountry</a:OrganizationInfoSectionType>
+                <a:OrganizationInfoSectionType>PrimaryCurrency</a:OrganizationInfoSectionType>
+                <a:OrganizationInfoSectionType>Status</a:OrganizationInfoSectionType>
+                <a:OrganizationInfoSectionType>Description</a:OrganizationInfoSectionType>
+              </a:OrganizationInfoSections>
+            </a:OrganizationInfoScope>
+          </a:UpdateOrganizationCommand>
+          <a:UpdateOrganizationCommand i:type="a:RemoveOrganizationInfoCommand">
+            <a:OrderRank>2</a:OrderRank>
+            <a:Organization>
+              <a:CreatedOn>0001-01-01T00:00:00</a:CreatedOn>
+              <a:Id>9</a:Id>
+              <a:ModifiedOn>0001-01-01T00:00:00</a:ModifiedOn>
+              <a:Status>Active</a:Status>
+              <a:BusinessType i:nil="true"/>
+              <a:Description i:nil="true"/>
+              <a:Name i:nil="true"/>
+              <a:OperatingCountry i:nil="true"/>
+              <a:PrimaryCurrency i:nil="true"/>
+              <a:Profile>
+                <a:AdditionalData i:nil="true"/>
+                <a:Address>
+                  <a:Addresses>
+                    <a:Address>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>1</a:ItemCode>
+                      <a:AddressLine1 i:nil="true"/>
+                      <a:AddressLine2 i:nil="true"/>
+                      <a:AddressScheme i:nil="true"/>
+                      <a:City i:nil="true"/>
+                      <a:Country i:nil="true"/>
+                      <a:State i:nil="true"/>
+                      <a:Type>Home</a:Type>
+                      <a:Zip i:nil="true"/>
+                    </a:Address>
+                  </a:Addresses>
+                </a:Address>
+                <a:Affiliation i:nil="true"/>
+                <a:Configuration>
+                  <a:Sections>
+                    <a:KeyValueSection>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:KeyValueSettings i:nil="true"/>
+                      <a:Name>SectionB</a:Name>
+                    </a:KeyValueSection>
+                  </a:Sections>
+                </a:Configuration>
+                <a:Contact>
+                  <a:Contacts>
+                    <a:Contact i:type="a:GeneralContact">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>4</a:ItemCode>
+                      <a:Provider i:nil="true"/>
+                      <a:Type i:nil="true"/>
+                      <a:Value i:nil="true"/>
+                    </a:Contact>
+                  </a:Contacts>
+                </a:Contact>
+                <a:CustomContract i:nil="true"/>
+                <a:CustomData i:nil="true"/>
+                <a:FormOfPayment i:nil="true"/>
+                <a:Media>
+                  <a:MediaItems>
+                    <a:MediaItem>
+                      <a:ItemCode>1</a:ItemCode>
+                      <a:AdditionalData i:nil="true"/>
+                      <a:Description i:nil="true"/>
+                      <a:Type i:nil="true"/>
+                      <a:Url i:nil="true"/>
+                    </a:MediaItem>
+                  </a:MediaItems>
+                </a:Media>
+                <a:Membership i:nil="true"/>
+                <a:Preference i:nil="true"/>
+                <a:StatusMessage i:nil="true"/>
+                <a:Announcement i:nil="true"/>
+              </a:Profile>
+              <a:ProfileImage i:nil="true"/>
+              <a:Type i:nil="true"/>
+            </a:Organization>
+            <a:OrganizationInfoScope>
+              <a:ExcludeSections>false</a:ExcludeSections>
+              <a:OrganizationInfoSections>
+                <a:OrganizationInfoSectionType>Profile_Media</a:OrganizationInfoSectionType>
+                <a:OrganizationInfoSectionType>Profile_Contact</a:OrganizationInfoSectionType>
+                <a:OrganizationInfoSectionType>Profile_Address</a:OrganizationInfoSectionType>
+                <a:OrganizationInfoSectionType>Profile_ProfileConfig</a:OrganizationInfoSectionType>
+              </a:OrganizationInfoSections>
+            </a:OrganizationInfoScope>
+          </a:UpdateOrganizationCommand>
+        </a:Commands>
+      </updateOrgRequest>
+    </UpdateOrganization>
+  </s:Body>
+</s:Envelope>

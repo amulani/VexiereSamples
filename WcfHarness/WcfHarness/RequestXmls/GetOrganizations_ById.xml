@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetOrganizations xmlns="http://www.tavisca.com/Vexiere/IOrganization/2013/01">
+      <getOrgRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:FilterParameters>
+          <a:FilterParameter>
+            <a:SearchOn>Id</a:SearchOn>
+            <a:SearchOperator>EqualTo</a:SearchOperator>
+            <a:SearchValue i:type="a:NumericValue">
+              <a:Value>1</a:Value>
+            </a:SearchValue>
+          </a:FilterParameter>
+        </a:FilterParameters>
+        <a:IncludeOrganizationStats>true</a:IncludeOrganizationStats>
+        <a:PagingInfo i:nil="true"/>
+        <a:RequiredInfoScope i:nil="true"/>
+        <a:SearchScope i:nil="true"/>
+        <a:SortingInfo i:nil="true"/>
+      </getOrgRequest>
+    </GetOrganizations>
+  </s:Body>
+</s:Envelope>

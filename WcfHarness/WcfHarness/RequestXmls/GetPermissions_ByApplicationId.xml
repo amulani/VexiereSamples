@@ -1,0 +1,21 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetPermissions xmlns="http://www.tavisca.com/Vexiere/IPermission/2013/01">
+      <getPermissionsRequest i:type="a:GetApplicationPermissionsRQ" xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:PagingInfo>
+          <a:PageNumber>0</a:PageNumber>
+          <a:PageSize>0</a:PageSize>
+        </a:PagingInfo>
+        <a:SortingInfo>
+          <a:OrderBy i:nil="true"/>
+          <a:SortDescending>false</a:SortDescending>
+        </a:SortingInfo>
+        <a:FilterParameters/>
+        <a:ApplicationIdentifier i:type="a:IdBasedApplicationIdentifier">
+          <a:Id>1</a:Id>
+        </a:ApplicationIdentifier>
+      </getPermissionsRequest>
+    </GetPermissions>
+  </s:Body>
+</s:Envelope>

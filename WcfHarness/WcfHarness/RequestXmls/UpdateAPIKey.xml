@@ -1,0 +1,16 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <UpdateAPIKey xmlns="http://www.tavisca.com/Vexiere/IAPIKey/2013/01">
+      <updateAPIKeyRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:APIKey>
+          <a:CreatedOn>2015-01-09T18:23:41.5880309Z</a:CreatedOn>
+          <a:IsValid>false</a:IsValid>
+          <a:Key>ZTRkMjQ5ZDQtZTI3MS00OWYyLTkyZjAtNzc5OTA2YWVkMGFk</a:Key>
+          <a:LastAccessedOn>2015-01-09T18:23:41.5880309Z</a:LastAccessedOn>
+          <a:OwnerOrganizationId>1</a:OwnerOrganizationId>
+        </a:APIKey>
+      </updateAPIKeyRequest>
+    </UpdateAPIKey>
+  </s:Body>
+</s:Envelope>

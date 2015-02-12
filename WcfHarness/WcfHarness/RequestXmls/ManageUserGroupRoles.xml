@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ManageUserGroupRoles xmlns="http://www.tavisca.com/Vexiere/IUserGroup/2013/01">
+      <manageUserGroupRolesRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:OperationMode>AppendMode</a:OperationMode>
+        <a:RoleIdentifiers>
+          <a:RoleIdentifier i:type="a:IdBasedRoleIdentifier">
+            <a:Id>1</a:Id>
+          </a:RoleIdentifier>
+          <a:RoleIdentifier i:type="a:IdBasedRoleIdentifier">
+            <a:Id>2</a:Id>
+          </a:RoleIdentifier>
+        </a:RoleIdentifiers>
+        <a:UserGroupIdentifier i:type="a:IdBasedUserGroupIdentifier">
+          <a:Id>1</a:Id>
+        </a:UserGroupIdentifier>
+      </manageUserGroupRolesRequest>
+    </ManageUserGroupRoles>
+  </s:Body>
+</s:Envelope>

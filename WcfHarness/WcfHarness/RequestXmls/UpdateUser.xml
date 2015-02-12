@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <UpdateUser xmlns="http://www.tavisca.com/Vexiere/IUser/2013/01">
+      <updateUserRequest xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.Vexiere.DataContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:AdditionalData i:nil="true"/>
+        <a:Commands>
+          <a:UpdateUserCommand i:type="a:AddOrUpdateUserInfoCommand">
+            <a:OrderRank>1</a:OrderRank>
+            <a:User>
+              <a:CreatedOn>0001-01-01T00:00:00</a:CreatedOn>
+              <a:Id>7</a:Id>
+              <a:ModifiedOn>0001-01-01T00:00:00</a:ModifiedOn>
+              <a:Status>Active</a:Status>
+              <a:DateOfBirth i:nil="true"/>
+              <a:Gender>NotSpecified</a:Gender>
+              <a:IdentitySetting i:nil="true"/>
+              <a:IsLocked>false</a:IsLocked>
+              <a:LinkedUsers i:nil="true"/>
+              <a:Name i:nil="true"/>
+              <a:Profile>
+                <a:AdditionalData i:nil="true"/>
+                <a:Address>
+                  <a:Addresses>
+                    <a:Address>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode i:nil="true"/>
+                      <a:AddressLine1>AACP</a:AddressLine1>
+                      <a:AddressLine2>Pune</a:AddressLine2>
+                      <a:AddressScheme>Standard</a:AddressScheme>
+                      <a:City>Pune</a:City>
+                      <a:Country>India</a:Country>
+                      <a:State>Maharashtra</a:State>
+                      <a:Type>Office</a:Type>
+                      <a:Zip>400133</a:Zip>
+                    </a:Address>
+                  </a:Addresses>
+                </a:Address>
+                <a:Affiliation>
+                  <a:Affiliations>
+                    <a:Affiliation>
+                      <a:ItemCode>2</a:ItemCode>
+                      <a:AffiliatedBy>Govt of India</a:AffiliatedBy>
+                      <a:Description>Unique tax information number</a:Description>
+                      <a:Name>TIN/Updated</a:Name>
+                      <a:Type>Tax Info Number</a:Type>
+                      <a:Value>TIN123</a:Value>
+                    </a:Affiliation>
+                  </a:Affiliations>
+                </a:Affiliation>
+                <a:Configuration>
+                  <a:Sections>
+                    <a:KeyValueSection>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:KeyValueSettings>
+                        <a:KeyValueState>
+                          <a:AccessModifier>Public</a:AccessModifier>
+                          <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                          <a:Key>Key</a:Key>
+                          <a:Value>Updated_Value</a:Value>
+                        </a:KeyValueState>
+                      </a:KeyValueSettings>
+                      <a:Name>SectionA</a:Name>
+                    </a:KeyValueSection>
+                  </a:Sections>
+                </a:Configuration>
+                <a:Contact>
+                  <a:Contacts>
+                    <a:Contact i:type="a:Phone">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>2</a:ItemCode>
+                      <a:AreaCode/>
+                      <a:CountryCode>+91</a:CountryCode>
+                      <a:Extension/>
+                      <a:IsDefault>false</a:IsDefault>
+                      <a:Location>Office</a:Location>
+                      <a:Type>Cell</a:Type>
+                      <a:Value>9021284186/Updated</a:Value>
+                    </a:Contact>
+                    <a:Contact i:type="a:Email">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>3</a:ItemCode>
+                      <a:IsDefault>true</a:IsDefault>
+                      <a:Value>demoaccountupdated@tavisca.com</a:Value>
+                    </a:Contact>
+                  </a:Contacts>
+                </a:Contact>
+                <a:CustomContract i:nil="true"/>
+                <a:CustomData i:nil="true"/>
+                <a:FormOfPayment>
+                  <a:Payments>
+                    <a:FormOfPayment i:type="a:SoftCash">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>1</a:ItemCode>
+                      <a:Type>SoftCash</a:Type>
+                      <a:AccountNumber>0539111333</a:AccountNumber>
+                      <a:ProviderCode>TB</a:ProviderCode>
+                      <a:ProviderName>Tavisca Updated Bucks</a:ProviderName>
+                    </a:FormOfPayment>
+                    <a:FormOfPayment i:type="a:BankAccount">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>2</a:ItemCode>
+                      <a:Type i:nil="true"/>
+                      <a:AccountNumber>111222333</a:AccountNumber>
+                      <a:BankName>HDFC</a:BankName>
+                      <a:BranchCode>HDFC0069</a:BranchCode>
+                      <a:BranchName>MyBranch</a:BranchName>
+                    </a:FormOfPayment>
+                  </a:Payments>
+                </a:FormOfPayment>
+                <a:Media i:nil="true"/>
+                <a:Membership>
+                  <a:Memberships>
+                    <a:Membership>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>1</a:ItemCode>
+                      <a:Category>Air</a:Category>
+                      <a:Code>CBX129PQ2</a:Code>
+                      <a:EndDate>2015-02-09T23:38:56.365228+05:30</a:EndDate>
+                      <a:PreferenceOrder>1</a:PreferenceOrder>
+                      <a:ProviderCode>UE</a:ProviderCode>
+                      <a:ProviderName>Fly Emirates</a:ProviderName>
+                      <a:StartDate>2015-01-09T23:38:56.365228+05:30</a:StartDate>
+                      <a:Status>Active</a:Status>
+                      <a:Type>Promotional Code</a:Type>
+                    </a:Membership>
+                    <a:Membership>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode i:nil="true"/>
+                      <a:Category>Car</a:Category>
+                      <a:Code>CA1120YQ9</a:Code>
+                      <a:EndDate>2015-02-09T23:38:56.365228+05:30</a:EndDate>
+                      <a:PreferenceOrder>1</a:PreferenceOrder>
+                      <a:ProviderCode>DN</a:ProviderCode>
+                      <a:ProviderName>DriveIn</a:ProviderName>
+                      <a:StartDate>2015-01-09T23:38:56.365228+05:30</a:StartDate>
+                      <a:Status>Active</a:Status>
+                      <a:Type>Promotional Code</a:Type>
+                    </a:Membership>
+                  </a:Memberships>
+                </a:Membership>
+                <a:Preference>
+                  <a:Preferences>
+                    <a:Preference i:type="a:AirPreference">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode i:nil="true"/>
+                      <a:ClassOfService>Business</a:ClassOfService>
+                      <a:DefaultOrigin>LAS</a:DefaultOrigin>
+                      <a:ExcludeAirlines xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                        <b:string>NW</b:string>
+                        <b:string>SW</b:string>
+                      </a:ExcludeAirlines>
+                      <a:ExcludeConnections>false</a:ExcludeConnections>
+                      <a:ExcludePenaltyFares>true</a:ExcludePenaltyFares>
+                      <a:MaximumConnections>4</a:MaximumConnections>
+                      <a:MealType>Veg</a:MealType>
+                      <a:PreferredAirlines xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                        <b:string>AA</b:string>
+                        <b:string>UA</b:string>
+                      </a:PreferredAirlines>
+                      <a:PreferredBillingAddress>Office</a:PreferredBillingAddress>
+                      <a:PreferredTicketOption>ETicket</a:PreferredTicketOption>
+                      <a:SeatPreference>Window</a:SeatPreference>
+                      <a:SeatRowPreference>Wing</a:SeatRowPreference>
+                    </a:Preference>
+                  </a:Preferences>
+                </a:Preference>
+                <a:StatusMessage i:nil="true"/>
+                <a:FellowPax>
+                  <a:FellowTravellers>
+                    <a:TravellerInfo>
+                      <a:ItemCode>1</a:ItemCode>
+                      <a:Email>
+                        <a:IsDefault>false</a:IsDefault>
+                        <a:Value>pax@tavisca.com</a:Value>
+                      </a:Email>
+                      <a:Memberships>
+                        <a:TravellerMembership>
+                          <a:Category>Air</a:Category>
+                          <a:Code>TRA852LG2</a:Code>
+                          <a:EndDate>2015-02-09T23:38:56.3642279+05:30</a:EndDate>
+                          <a:PreferenceOrder>1</a:PreferenceOrder>
+                          <a:ProviderCode>BA</a:ProviderCode>
+                          <a:ProviderName>British Airways</a:ProviderName>
+                          <a:StartDate>2015-01-09T23:38:56.3642279+05:30</a:StartDate>
+                          <a:Status>Active</a:Status>
+                          <a:Type>Corporate Code</a:Type>
+                        </a:TravellerMembership>
+                      </a:Memberships>
+                      <a:Passport>
+                        <a:ExpiryDate>2025-01-09T23:38:56.3642279+05:30</a:ExpiryDate>
+                        <a:IssueDate>2015-01-09T23:38:56.3642279+05:30</a:IssueDate>
+                        <a:IssuingCountry>IN</a:IssuingCountry>
+                        <a:Name>
+                          <a:FirstName>Frank</a:FirstName>
+                          <a:LastName>Doe</a:LastName>
+                          <a:MiddleName>X</a:MiddleName>
+                          <a:Prefix i:nil="true"/>
+                          <a:Suffix i:nil="true"/>
+                          <a:Title>Mr</a:Title>
+                        </a:Name>
+                        <a:PassportNumber>K7719699</a:PassportNumber>
+                      </a:Passport>
+                      <a:PersonalInfo>
+                        <a:DateOfBirth>2003-01-09T23:38:56.3642279+05:30</a:DateOfBirth>
+                        <a:Gender>Male</a:Gender>
+                        <a:Name>
+                          <a:FirstName>Frank</a:FirstName>
+                          <a:LastName>Y</a:LastName>
+                          <a:MiddleName>Doe</a:MiddleName>
+                          <a:Prefix i:nil="true"/>
+                          <a:Suffix i:nil="true"/>
+                          <a:Title>Mr</a:Title>
+                        </a:Name>
+                      </a:PersonalInfo>
+                      <a:Phone>
+                        <a:AreaCode>02327</a:AreaCode>
+                        <a:CountryCode>+91</a:CountryCode>
+                        <a:Extension i:nil="true"/>
+                        <a:IsDefault>false</a:IsDefault>
+                        <a:Location>Home</a:Location>
+                        <a:Type>Cell</a:Type>
+                        <a:Value>9999900005</a:Value>
+                      </a:Phone>
+                    </a:TravellerInfo>
+                    <a:TravellerInfo>
+                      <a:ItemCode>2</a:ItemCode>
+                      <a:Email>
+                        <a:IsDefault>false</a:IsDefault>
+                        <a:Value>pax1@tavisca.com</a:Value>
+                      </a:Email>
+                      <a:Memberships>
+                        <a:TravellerMembership>
+                          <a:Category>Air</a:Category>
+                          <a:Code>TRA852LG2</a:Code>
+                          <a:EndDate>2015-02-09T23:38:56.3642279+05:30</a:EndDate>
+                          <a:PreferenceOrder>1</a:PreferenceOrder>
+                          <a:ProviderCode>BA</a:ProviderCode>
+                          <a:ProviderName>British Airways</a:ProviderName>
+                          <a:StartDate>2015-01-09T23:38:56.3642279+05:30</a:StartDate>
+                          <a:Status>Active</a:Status>
+                          <a:Type>Corporate Code</a:Type>
+                        </a:TravellerMembership>
+                      </a:Memberships>
+                      <a:Passport>
+                        <a:ExpiryDate>2025-01-09T23:38:56.3642279+05:30</a:ExpiryDate>
+                        <a:IssueDate>2015-01-09T23:38:56.3642279+05:30</a:IssueDate>
+                        <a:IssuingCountry>IN</a:IssuingCountry>
+                        <a:Name>
+                          <a:FirstName>Mikel</a:FirstName>
+                          <a:LastName>Doe</a:LastName>
+                          <a:MiddleName>X</a:MiddleName>
+                          <a:Prefix i:nil="true"/>
+                          <a:Suffix i:nil="true"/>
+                          <a:Title>Mr</a:Title>
+                        </a:Name>
+                        <a:PassportNumber>K7819699</a:PassportNumber>
+                      </a:Passport>
+                      <a:PersonalInfo>
+                        <a:DateOfBirth>2003-01-09T23:38:56.3642279+05:30</a:DateOfBirth>
+                        <a:Gender>Male</a:Gender>
+                        <a:Name>
+                          <a:FirstName>Mikel</a:FirstName>
+                          <a:LastName>Y</a:LastName>
+                          <a:MiddleName>Doe</a:MiddleName>
+                          <a:Prefix i:nil="true"/>
+                          <a:Suffix i:nil="true"/>
+                          <a:Title>Mr</a:Title>
+                        </a:Name>
+                      </a:PersonalInfo>
+                      <a:Phone>
+                        <a:AreaCode>02327</a:AreaCode>
+                        <a:CountryCode>+91</a:CountryCode>
+                        <a:Extension i:nil="true"/>
+                        <a:IsDefault>false</a:IsDefault>
+                        <a:Location>Home</a:Location>
+                        <a:Type>Cell</a:Type>
+                        <a:Value>9999900009</a:Value>
+                      </a:Phone>
+                    </a:TravellerInfo>
+                  </a:FellowTravellers>
+                </a:FellowPax>
+                <a:Passport>
+                  <a:Passports>
+                    <a:Passport>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>1</a:ItemCode>
+                      <a:ExpiryDate>2020-01-09T23:38:56.3622277+05:30</a:ExpiryDate>
+                      <a:IssueDate>2015-01-09T23:38:56.3622277+05:30</a:IssueDate>
+                      <a:IssuingCountry>IN</a:IssuingCountry>
+                      <a:Name>
+                        <a:FirstName>John</a:FirstName>
+                        <a:LastName>Doe</a:LastName>
+                        <a:MiddleName>X</a:MiddleName>
+                        <a:Prefix i:nil="true"/>
+                        <a:Suffix i:nil="true"/>
+                        <a:Title>Mr</a:Title>
+                      </a:Name>
+                      <a:PassportNumber>K4719689</a:PassportNumber>
+                    </a:Passport>
+                    <a:Passport>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>2</a:ItemCode>
+                      <a:ExpiryDate>2025-01-09T23:38:56.3622277+05:30</a:ExpiryDate>
+                      <a:IssueDate>2015-01-09T23:38:56.3622277+05:30</a:IssueDate>
+                      <a:IssuingCountry>USA</a:IssuingCountry>
+                      <a:Name>
+                        <a:FirstName>Steven</a:FirstName>
+                        <a:LastName>Doe</a:LastName>
+                        <a:MiddleName>X</a:MiddleName>
+                        <a:Prefix i:nil="true"/>
+                        <a:Suffix i:nil="true"/>
+                        <a:Title>Mr</a:Title>
+                      </a:Name>
+                      <a:PassportNumber>K7419633</a:PassportNumber>
+                    </a:Passport>
+                  </a:Passports>
+                </a:Passport>
+              </a:Profile>
+              <a:ProfileImage i:nil="true"/>
+              <a:Role i:nil="true"/>
+              <a:UserName>2ff3469d-5e71-45c6-b005-66829a741eb1</a:UserName>
+            </a:User>
+            <a:UserInfoUpdateScope>
+              <a:ExcludeSections>false</a:ExcludeSections>
+              <a:UserInfoSections>
+                <a:UserInfoSectionType>Profile_Passport</a:UserInfoSectionType>
+                <a:UserInfoSectionType>Profile_FellowPaxInfo</a:UserInfoSectionType>
+                <a:UserInfoSectionType>Profile_Contact</a:UserInfoSectionType>
+                <a:UserInfoSectionType>Profile_Address</a:UserInfoSectionType>
+                <a:UserInfoSectionType>Profile_Affiliation</a:UserInfoSectionType>
+                <a:UserInfoSectionType>Profile_Preference</a:UserInfoSectionType>
+                <a:UserInfoSectionType>Profile_Membership</a:UserInfoSectionType>
+                <a:UserInfoSectionType>Profile_FormOfPayment</a:UserInfoSectionType>
+                <a:UserInfoSectionType>Profile_Config</a:UserInfoSectionType>
+              </a:UserInfoSections>
+            </a:UserInfoUpdateScope>
+          </a:UpdateUserCommand>
+          <a:UpdateUserCommand i:type="a:RemoveUserInfoCommand">
+            <a:OrderRank>2</a:OrderRank>
+            <a:User>
+              <a:CreatedOn>0001-01-01T00:00:00</a:CreatedOn>
+              <a:Id>7</a:Id>
+              <a:ModifiedOn>0001-01-01T00:00:00</a:ModifiedOn>
+              <a:Status>Active</a:Status>
+              <a:DateOfBirth i:nil="true"/>
+              <a:Gender>NotSpecified</a:Gender>
+              <a:IdentitySetting i:nil="true"/>
+              <a:IsLocked>false</a:IsLocked>
+              <a:LinkedUsers i:nil="true"/>
+              <a:Name i:nil="true"/>
+              <a:Profile>
+                <a:AdditionalData i:nil="true"/>
+                <a:Address>
+                  <a:Addresses>
+                    <a:Address>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>1</a:ItemCode>
+                      <a:AddressLine1 i:nil="true"/>
+                      <a:AddressLine2 i:nil="true"/>
+                      <a:AddressScheme i:nil="true"/>
+                      <a:City i:nil="true"/>
+                      <a:Country i:nil="true"/>
+                      <a:State i:nil="true"/>
+                      <a:Type>Home</a:Type>
+                      <a:Zip i:nil="true"/>
+                    </a:Address>
+                  </a:Addresses>
+                </a:Address>
+                <a:Affiliation i:nil="true"/>
+                <a:Configuration>
+                  <a:Sections>
+                    <a:KeyValueSection>
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:KeyValueSettings i:nil="true"/>
+                      <a:Name>SectionB</a:Name>
+                    </a:KeyValueSection>
+                  </a:Sections>
+                </a:Configuration>
+                <a:Contact>
+                  <a:Contacts>
+                    <a:Contact i:type="a:GeneralContact">
+                      <a:AccessModifier>Public</a:AccessModifier>
+                      <a:OwnerOrganizationId>0</a:OwnerOrganizationId>
+                      <a:ItemCode>4</a:ItemCode>
+                      <a:Provider i:nil="true"/>
+                      <a:Type i:nil="true"/>
+                      <a:Value i:nil="true"/>
+                    </a:Contact>
+                  </a:Contacts>
+                </a:Contact>
+                <a:CustomContract i:nil="true"/>
+                <a:CustomData i:nil="true"/>
+                <a:FormOfPayment i:nil="true"/>
+                <a:Media i:nil="true"/>
+                <a:Membership i:nil="true"/>
+                <a:Preference i:nil="true"/>
+                <a:StatusMessage i:nil="true"/>
+                <a:FellowPax>
+                  <a:FellowTravellers>
+                    <a:TravellerInfo>
+                      <a:ItemCode>1</a:ItemCode>
+                      <a:Email i:nil="true"/>
+                      <a:Memberships i:nil="true"/>
+                      <a:Passport i:nil="true"/>
+                      <a:PersonalInfo i:nil="true"/>
+                      <a:Phone i:nil="true"/>
+                    </a:TravellerInfo>
+                  </a:FellowTravellers>
+                </a:FellowPax>
+                <a:Passport i:nil="true"/>
+              </a:Profile>
+              <a:ProfileImage i:nil="true"/>
+              <a:UserName>2ff3469d-5e71-45c6-b005-66829a741eb1</a:UserName>
+            </a:User>
+            <a:UserInfoUpdateScope>
+              <a:ExcludeSections>false</a:ExcludeSections>
+              <a:UserInfoSections>
+                <a:UserInfoSectionType>Profile_FellowPaxInfo</a:UserInfoSectionType>
+                <a:UserInfoSectionType>Profile_Contact</a:UserInfoSectionType>
+                <a:UserInfoSectionType>Profile_Address</a:UserInfoSectionType>
+                <a:UserInfoSectionType>Profile_Config</a:UserInfoSectionType>
+              </a:UserInfoSections>
+            </a:UserInfoUpdateScope>
+          </a:UpdateUserCommand>
+        </a:Commands>
+      </updateUserRequest>
+    </UpdateUser>
+  </s:Body>
+</s:Envelope>
