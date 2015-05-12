@@ -49,7 +49,7 @@ namespace ResourceOwnerFlow
                   BaseAddress = new Uri(Endpoint + "/issue/oidc/revoke")
               };
 
-            var byteArray = Encoding.ASCII.GetBytes("1" + ":" + APIKey);
+            var byteArray = Encoding.ASCII.GetBytes(ClientId + ":" + APIKey);
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));
 
             var parameter = new Dictionary<string, string>
